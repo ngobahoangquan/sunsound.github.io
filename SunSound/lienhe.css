@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Montserrat:wght@800&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Karla:wght@300&family=Montserrat:wght@800&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: cadetblue */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  max-width: auto;
+  max-height: 90px;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10%;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  position: fixed;
+  z-index: 100;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgb(14, 206, 65);
+}
+
+:root {
+  font-size: 16px;
+}
+
+section {
+  font-family: "Quicksand";
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.thongtin {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: x-large;
+  position: absolute;
+  top: 40%;
+  left: 23%;
+}
+
+.page-title {
+  margin-top: 50px;
+}
